@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: left;
+    color: darkblue;
+}
+
+#titulo-principal {
+    text-align: center;
+    color: darkblue;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.paragrafo-html {
+    color: rgb(170, 90, 0);
+}
+
+.paragrafo-css {
+    color: rgb(0, 151, 201);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
