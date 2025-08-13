@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #89853a;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#container {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#container > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.36);
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  border-radius: 10px;
+
+  position: relative;
+}
+
+.caixa1 {
+  background-color: red;
+  left: 50px;
+  z-index: 1;
+}
+
+.caixa2 {
+  background-color: green;
+  left: 100px;
+  top: -50px;
+  z-index: 2;
+
+}
+
+.caixa3 {
+  background-color: blue;
+  left: 150px;
+  top: -100px;
+  z-index: 3;
+}

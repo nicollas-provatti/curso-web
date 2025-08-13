@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #3a893d;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#container {
+  max-width: 600px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+.caixa {
+  display: inline-block;
+  width: 29%;
+  height: 150px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.invisivel {
+  visibility: hidden;
+}

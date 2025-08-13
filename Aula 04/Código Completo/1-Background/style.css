@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #1a73e8;
+}
+
+section {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #ddd;
+  background-color: #222;
+}
+
+.divisao {
+  height: 200px;
+  background-color: #222;
+}
+
+#bg-imagem {
+  background-image: url("images/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#bg-parallax {
+  background-image: url("images/bg-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#bg-gradiente {
+  background-image: linear-gradient(to right, #2A7B9B, #57C785, #EDDD53);
+  background: linear-gradient(180deg, #020024, #090979, #00D4FF);
+}
+
+#bg-shorthand {
+  background: #111 url("images/bg-3.jpg") top center / cover no-repeat scroll;
+}
