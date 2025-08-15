@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+}
+
+h1 {
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+/* p::before {
+  content: "Início ";
+  color: red;
+}
+
+p::after {
+  content: " Fim";
+  color: green;
+} */
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p::first-line {
+  color: #aaa;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li::marker {
+  color: red;
+  font-size: 24px;
+}
+
+body::selection {
+  background-color: rgba(255, 255, 0, 0.266);
+}
