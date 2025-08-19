@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas Grandes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      /* padding-bottom: 2000px; */
+    }
+
+    table {
+      width: 600px;
+      border-collapse: collapse;
+      position: relative;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    thead,
+    tfoot {
+      background-color: rgb(53, 53, 53);
+      color: white;
+    }
+
+    .bilheteria {
+      text-align: right;
+    }
+
+    caption {
+      background-color: rgb(213, 213, 213);
+      padding: 10px;
+    }
+
+    tbody > tr:nth-child(even) {
+      background-color: rgba(211, 211, 211, 0.427);
+    }
+
+    tbody > tr:nth-child(odd) {
+      background-color: white;
+    }
+
+  
+    thead > tr > th {
+      position: sticky;
+      top: -1px;
+      background-color: rgb(53, 53, 53);
+      color: white;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Tabelas Grandes</h1>
+
+  <!-- 
+  TABLE - TABELA 
+    CAPTION
+    THEAD
+      tr, th, td
+    TBODY
+      tr, th, td
+    TFOOT
+      tr, th, td
+  -->
+
+  <table>
+    <caption>Maiores Bilheterias Mundiais</caption>
+    <thead>
+      <tr>
+        <th scope="col">Filme</th>
+        <th scope="col">Bilheteria</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Avatar</td>
+        <td class="bilheteria">2 923 706 026</td>
+      </tr>
+      <tr>
+        <td>Vingadores: Ultimato</td>
+        <td class="bilheteria">2 799 439 100</td>
+      </tr>
+      <tr>
+        <td>Avatar: O Caminho da Água</td>
+        <td class="bilheteria">2 320 250 281</td>
+      </tr>
+      <tr>
+        <td>Titanic</td>
+        <td class="bilheteria">2 264 743 305</td>
+      </tr>
+      <tr>
+        <td>Ne Zha 2</td>
+        <td class="bilheteria">2 112 495 434</td>
+      </tr>
+      <tr>
+        <td>Star Wars: O Despertar da Força</td>
+        <td class="bilheteria">2 071 310 218</td>
+      </tr>
+      <tr>
+        <td>Vingadores: Guerra Infinita</td>
+        <td class="bilheteria">2 052 415 039</td>
+      </tr>
+      <tr>
+        <td>Homem-Aranha: Sem Volta para Casa</td>
+        <td class="bilheteria">1 912 233 593</td>
+      </tr>
+      <tr>
+        <td>Divertida Mente 2</td>
+        <td class="bilheteria">1 698 778 437</td>
+      </tr>
+      <tr>
+        <td>Jurassic World</td>
+        <td class="bilheteria">1 671 537 444</td>
+      </tr>
+      <tr>
+        <td>O Rei Leão</td>
+        <td class="bilheteria">1 663 075 401</td>
+      </tr>
+      <tr>
+        <td>Os Vingadores</td>
+        <td class="bilheteria">1 520 538 536</td>
+      </tr>
+      <tr>
+        <td>Velozes &amp; Furiosos 7</td>
+        <td class="bilheteria">1 515 341 399</td>
+      </tr>
+      <tr>
+        <td>Top Gun: Maverick</td>
+        <td class="bilheteria">1 495 696 292</td>
+      </tr>
+      <tr>
+        <td>Frozen II</td>
+        <td class="bilheteria">1 453 683 476</td>
+      </tr>
+      <tr>
+        <td>Barbie</td>
+        <td class="bilheteria">1 445 638 421</td>
+      </tr>
+      <tr>
+        <td>Vingadores: Era de Ultron</td>
+        <td class="bilheteria">1 405 018 048</td>
+      </tr>
+      <tr>
+        <td>Super Mario Bros. O Filme</td>
+        <td class="bilheteria">1 360 325 400</td>
+      </tr>
+      <tr>
+        <td>Pantera Negra</td>
+        <td class="bilheteria">1 349 926 083</td>
+      </tr>
+      <tr>
+        <td>Harry Potter e as Relíquias da Morte: Parte 2</td>
+        <td class="bilheteria">1 342 359 942</td>
+      </tr>
+      <tr>
+        <td>Deadpool &amp; Wolverine</td>
+        <td class="bilheteria">1 338 073 645</td>
+      </tr>
+      <tr>
+        <td>Star Wars: The Last Jedi</td>
+        <td class="bilheteria">1 334 407 706</td>
+      </tr>
+      <tr>
+        <td>Jurassic World: Fallen Kingdom</td>
+        <td class="bilheteria">1 308 497 944</td>
+      </tr>
+      <tr>
+        <td>Frozen</td>
+        <td class="bilheteria">1 284 540 518</td>
+      </tr>
+      <tr>
+        <td>A Bela e a Fera</td>
+        <td class="bilheteria">1 266 115 964</td>
+      </tr>
+      <tr>
+        <td>Os Incríveis 2</td>
+        <td class="bilheteria">1 243 225 667</td>
+      </tr>
+      <tr>
+        <td>Velozes e Furiosos 8</td>
+        <td class="bilheteria">1 236 005 118</td>
+      </tr>
+      <tr>
+        <td>Homem de Ferro 3</td>
+        <td class="bilheteria">1 215 577 205</td>
+      </tr>
+      <tr>
+        <td>Minions</td>
+        <td class="bilheteria">1 159 444 662</td>
+      </tr>
+      <tr>
+        <td>Capitão América: Guerra Civil</td>
+        <td class="bilheteria">1 155 046 416</td>
+      </tr>
+      <tr>
+        <td>Aquaman</td>
+        <td class="bilheteria">1 148 528 393</td>
+      </tr>
+      <tr>
+        <td>O Senhor dos Anéis: O Retorno do Rei</td>
+        <td class="bilheteria">1 147 633 833</td>
+      </tr>
+      <tr>
+        <td>007 - Operação Skyfall</td>
+        <td class="bilheteria">1 142 471 295</td>
+      </tr>
+      <tr>
+        <td>Homem-Aranha: Longe de Casa</td>
+        <td class="bilheteria">1 131 927 996</td>
+      </tr>
+      <tr>
+        <td>Capitã Marvel</td>
+        <td class="bilheteria">1 131 416 446</td>
+      </tr>
+      <tr>
+        <td>Transformers: O Lado Oculto da Lua</td>
+        <td class="bilheteria">1 123 794 079</td>
+      </tr>
+      <tr>
+        <td>Jurassic Park</td>
+        <td class="bilheteria">1 109 802 321</td>
+      </tr>
+      <tr>
+        <td>Transformers 4 - A Era da Extinção</td>
+        <td class="bilheteria">1 104 054 072</td>
+      </tr>
+      <tr>
+        <td>Batman: O Cavaleiro das Trevas Ressurge</td>
+        <td class="bilheteria">1 081 169 825</td>
+      </tr>
+      <tr>
+        <td>Star Wars Episodio IX: A Ascensão Skywalker</td>
+        <td class="bilheteria">1 077 022 372</td>
+      </tr>
+      <tr>
+        <td>Coringa</td>
+        <td class="bilheteria">1 074 458 282</td>
+      </tr>
+      <tr>
+        <td>Toy Story 4</td>
+        <td class="bilheteria">1 073 841 394</td>
+      </tr>
+      <tr>
+        <td>Toy Story 3</td>
+        <td class="bilheteria">1 067 316 101</td>
+      </tr>
+      <tr>
+        <td>Piratas do Caribe: O Baú da Morte</td>
+        <td class="bilheteria">1 066 179 747</td>
+      </tr>
+      <tr>
+        <td>Moana 2</td>
+        <td class="bilheteria">1 059 542 341</td>
+      </tr>
+      <tr>
+        <td>Rogue One: Uma História Star Wars</td>
+        <td class="bilheteria">1 058 682 142</td>
+      </tr>
+      <tr>
+        <td>Aladdin</td>
+        <td class="bilheteria">1 054 304 000</td>
+      </tr>
+      <tr>
+        <td>Piratas do Caribe: Navegando em Águas Misteriosas</td>
+        <td class="bilheteria">1 046 721 266</td>
+      </tr>
+      <tr>
+        <td>Star Wars: Episódio I – A Ameaça Fantasma</td>
+        <td class="bilheteria">1 041 563 462</td>
+      </tr>
+      <tr>
+        <td>Meu Malvado Favorito 3</td>
+        <td class="bilheteria">1 034 800 131</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th scope="row">Total</th>
+        <td class="bilheteria">70 694 676 218</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+
+</html>

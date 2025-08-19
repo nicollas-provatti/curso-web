@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Tabela</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplo de Tabela</h1>
+  <table>
+    <thead>
+      <tr>
+        <th scope="row">Categoria</th>
+        <th scope="col">Produto</th>
+        <th colspan="3" scope="colgroup">Lojas Disponíveis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="3" scope="rowgroup">Eletrônicos</th>
+        <td>Smartphone</td>
+        <td>Amazon</td>
+        <td>Americanas</td>
+        <td>Magalu</td>
+      </tr>
+      <tr>
+        <td>Notebook</td>
+        <td>Submarino</td>
+        <td>Fast Shop</td>
+        <td>Magazine Luiza</td>
+      </tr>
+      <tr>
+        <td>Smart TV</td>
+        <td>Casas Bahia</td>
+        <td>Ponto Frio</td>
+        <td>Amazon</td>
+      </tr>
+
+      <tr>
+        <th rowspan="3" scope="rowgroup">Alimentos</th>
+        <td>Arroz</td>
+        <td>Carrefour</td>
+        <td>Pão de Açúcar</td>
+        <td>Atacadão</td>
+      </tr>
+      <tr>
+        <td>Feijão</td>
+        <td>Assaí</td>
+        <td>Extra</td>
+        <td>Oba Hortifruti</td>
+      </tr>
+      <tr>
+        <td>Leite</td>
+        <td>Carrefour</td>
+        <td>Dia</td>
+        <td>Coop</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <th colspan="4" scope="row">Total</th>
+      <td>00000</td>
+    </tfoot>
+  </table>
+
+
+</body>
+</html>
