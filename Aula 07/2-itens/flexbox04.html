@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Flex</title>
+  <style>
+    .container {
+      background-color: lightblue;
+      padding: 10px;
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    .container > div {
+      border: 1px solid darkblue;
+      background-color: rgb(94, 142, 239);
+      padding: 10px;
+      text-align: center;
+      line-height: 1.6;
+
+      /* flex-basis: 100px; */
+      flex-grow: 1;
+    }
+
+    div.item1 {
+      flex-grow: 2;
+    }
+
+    div.item2 {
+      flex-grow: 0;
+    }
+
+    div.item3 {
+      flex-grow: 4;
+    }
+
+    div.item4 {
+      flex-grow: 0;
+    }
+
+    div.item5 {
+      flex-grow: 8;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+  </div>
+</body>
+</html>

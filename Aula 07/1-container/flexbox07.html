@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Container Flex</title>
+  <style>
+    .container {
+      background-color: lightblue;
+      padding: 10px;
+      display: flex;
+
+      height: 300px;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container > div {
+      border: 1px solid darkblue;
+      background-color: rgb(94, 142, 239);
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+  </div>
+</body>
+</html>

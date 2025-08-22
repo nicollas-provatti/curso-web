@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Flex</title>
+  <style>
+    .container {
+      background-color: lightblue;
+      padding: 10px;
+      display: flex;
+      flex-flow: row nowrap;
+
+      height: 300px;
+      align-items: flex-start;
+    }
+
+    .container > div {
+      border: 1px solid darkblue;
+      background-color: rgb(94, 142, 239);
+      padding: 10px;
+      text-align: center;
+      line-height: 1.6;
+      flex: auto;
+    }
+
+    .item1 {
+      align-self: auto;
+    }
+
+    .item2 {
+      align-self: flex-start;
+    }
+
+    .item3 {
+      align-self: flex-end;
+    }
+
+    .item4 {
+      align-self: center;
+    }
+
+    .item5 {
+      align-self: stretch;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+  </div>
+</body>
+</html>
