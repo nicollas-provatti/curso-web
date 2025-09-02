@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Inscrição</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Formulário de Inscrição</h1>
+
+    <form>
+      <fieldset >
+        <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+          
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+      </fieldset>
+
+      <fieldset id="informacoes-conta">
+        <legend>Informações da Conta</legend>
+        <label for="usuario">Nome de Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required>
+  
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+      </fieldset>
+  
+      
+  
+      <fieldset>
+        <legend>Preferências</legend>
+
+        <label for="curso">Selecione um curso:</label>
+        <select id="curso" name="curso">
+          <optgroup label="Tecnologia">
+            <option>Programação Web</option>
+            <option>Banco de Dados</option>
+          </optgroup>
+          <optgroup label="Design">
+            <option>UI/UX</option>
+            <option>Design Gráfico</option>
+          </optgroup>
+        </select>
+  
+        <div id="modalidade">
+          <label>Modalidade:</label>
+          <input type="radio" id="online" name="modalidade" value="online" checked>
+          <label for="online">Online</label>
+          <input type="radio" id="presencial" name="modalidade" value="presencial">
+          <label for="presencial">Presencial</label>
+        </div>
+        
+        <div id="novidades">
+          <label>Receber novidades:</label>
+          <input type="checkbox" id="novidades" name="novidades">
+          <label for="novidades">Sim, quero receber por e-mail</label>
+        </div>
+      </fieldset>
+  
+      <fieldset id="mensagem">
+        <legend>Mensagem</legend>
+        <label for="mensagem">Alguma observação?</label>
+        <textarea id="mensagem" name="mensagem" rows="8"></textarea>
+      </fieldset>
+
+      <button type="submit">Enviar Inscrição</button>
+    </form>
+  </div>
+
+</body>
+</html>

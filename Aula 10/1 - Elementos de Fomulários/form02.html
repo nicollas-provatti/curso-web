@@ -1,0 +1,38 @@
+<!-- Select, Option e Optgroup -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select, Option e Optgroup</title>
+</head>
+<body>
+  <h1>Formulário</h1>
+
+  <form>
+    <label for="curso">Escolha um curso:</label>
+    <select id="curso" name="curso">
+        <option value="html-css">HTML e CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="nd">NodeJS</option>
+        <option value="bd">Banco de Dados</option>
+    </select>
+  </form>
+
+  <br>
+
+  <form>
+    <label for="curso">Escolha um curso:</label>
+    <select id="curso" name="curso">
+      <optgroup label="Front-end">
+        <option value="html-css">HTML e CSS</option>
+        <option value="js">JavaScript</option>
+      </optgroup>
+      <optgroup label="Back-end">
+        <option value="nd">NodeJS</option>
+        <option value="bd">Banco de Dados</option>
+      </optgroup>
+    </select>
+  </form>
+</body>
+</html>

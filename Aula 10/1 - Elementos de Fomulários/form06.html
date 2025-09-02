@@ -1,0 +1,24 @@
+<!-- Output -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Output</title>
+</head>
+<body>
+  <h1>Formulário</h1>
+
+  <form oninput="resultado.value=parseInt(a.value)+parseInt(b.value)">
+    <label for="a">Digite um número:</label>
+    <input type="number" id="a" value="0">
+
+    <label for="b">Digite outro número:</label>
+    <input type="number" id="b" value="0">
+
+    Resultado: <output name="resultado" for="a b">0</output>
+    
+  </form>
+
+</body>
+</html>
