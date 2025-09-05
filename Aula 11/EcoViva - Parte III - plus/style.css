@@ -200,8 +200,6 @@ h2 {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  /* remover */
-  /* padding-bottom: 30px; */
 }
 
 .card {
@@ -235,9 +233,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* ==========================
-Seção Formulário
-========================== */
 .formulario {
   background-color: var(--bg-principal);
   margin-bottom: 50px;
