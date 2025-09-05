@@ -13,9 +13,7 @@
 
 [data-tema="escuro"] {
   --bg-principal: #222222;
-
   --verde-claro: #F1F8E9;
-
   --texto-principal: #686868;
   --texto-secundario: #ffffff;
 }
