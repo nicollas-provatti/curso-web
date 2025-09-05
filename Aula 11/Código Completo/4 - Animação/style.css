@@ -1,0 +1,45 @@
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 50px auto;
+    position: relative;
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation: mover 3s ease infinite alternate;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(200px, 0);
+    background-color: blue;
+  }
+  50% {
+    transform: translate(200px, 200px); 
+    background-color: yellow;
+  }
+  75% {
+    transform: translate(0, 200px); 
+    background-color: green;
+  }
+  100% {
+    transform: translate(0, 0); 
+  }
+}
+
