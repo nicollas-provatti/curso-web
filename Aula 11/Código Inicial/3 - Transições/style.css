@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.botao {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #45a049; 
+    transform: scale(1.2);     
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3); 
+}

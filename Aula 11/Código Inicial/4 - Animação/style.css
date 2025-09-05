@@ -1,0 +1,8 @@
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin: 50px auto;
+  position: relative; 
+}
+
