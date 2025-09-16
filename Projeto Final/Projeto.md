@@ -53,9 +53,10 @@ A ideia é que cada aluno desenvolva um site que **tenha identidade própria** e
 ## 📦 Entrega  
 
 - O projeto deve ser entregue em um **novo repositório no GitHub** contendo todos os arquivos do site (**HTML, CSS e imagens**).  
-* 📅 **Prazo de entrega: 19/09**  
+* 📅 **Prazo de entrega: 26/09**  
 - 🌐 Opcional: publicar o site no **GitHub Pages** ou outra plataforma de hospedagem gratuita.  
 
 ---
 
 ✨ Essa é a sua chance de mostrar tudo o que aprendeu no curso e ainda criar um site sobre algo que você gosta!  
+
