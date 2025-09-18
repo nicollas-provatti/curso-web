@@ -1,0 +1,87 @@
+Conteúdo Secundário:
+
+Marcos Lima
+
+Apaixonado por tecnologia e desenvolvimento web, buscando sempre aprender e criar soluções criativas que unam design e funcionalidade.
+
+<p><i class="fa-solid fa-briefcase"></i> Dev Frontend</p>
+<p><i class="fa-solid fa-house"></i> Maceió</p>
+<p><i class="fa-solid fa-envelope"></i> marcoslimadev@hotmail.com</p>
+<p><i class="fa-solid fa-phone"></i> (82) 9 9999-9999</p>
+
+Conteúdo Principal:
+
+SOBRE
+<p>
+  Olá! Meu nome é <strong>Bruno Malta</strong> e sou um
+  <strong>Desenvolvedor Frontend</strong> apaixonado por transformar
+  ideias em experiências digitais. Gosto de criar interfaces modernas,
+  responsivas e focadas na melhor experiência do usuário.
+</p>
+
+<p>
+  Tenho conhecimento em <strong>HTML, CSS, JavaScript</strong> e
+  <strong>React</strong>, e estou sempre em busca de aprender novas
+  tecnologias. Atualmente, estou construindo projetos para meu
+  portfólio e ampliando minhas habilidades com
+  <strong>Node.js</strong> e integração com APIs.
+</p>
+
+<p>
+  Além da programação, gosto de <strong>resolver problemas</strong>,
+  aprender continuamente e colaborar em equipe para entregar
+  resultados de qualidade. 🚀
+</p>
+
+HABILIDADES
+<p>Domínio das <strong>principais tecnologias de front-end</strong> e em constante evolução para acompanhar as tendências do mercado, unindo  <strong>boas páticas de código</strong> e foco em <strong>experiência do usuário.</strong></p>
+
+<p><i class="fa-brands fa-html5"></i> HTML5</p>
+<p><i class="fa-brands fa-css3-alt"></i>  CSS3</p>
+<p><i class="fa-brands fa-js"></i>  JavaScript</p>
+<p><i class="fa-solid fa-message"></i> Comunicação</p>
+<p><i class="fa-brands fa-teamspeak"></i> Trabalho em equipe</p>
+<p><i class="fa-solid fa-circle-exclamation"></i> Resolução de problemas</p>
+
+FORMAÇÃO
+
+<p>
+  Minha <strong>formação acadêmica</strong> e <strong>cursos complementares</strong> refletem meu compromisso em adquirir uma <strong>base sólida em tecnologia e desenvolvimento</strong>, sempre buscando aprimorar minhas <strong>habilidades técnicas</strong> e ampliar meus conhecimentos.
+</p>
+
+Graduação
+
+<h4>Bacharelado em Ciência da Computação</h4>
+<p>Universidade de Alagoas (2020 - 2024)</p>
+
+<h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
+<p>Faculdade Digital Tech (2018 - 2020)</p>
+
+Cursos Complementares
+
+<h4>Curso de HTML e CSS</h4>
+<p>Plataforma Online DevPro (2023)</p>
+
+<h4>JavaScript Moderno: ES6+</h4>
+<p>Bootcamp CodeMaster (2022)</p>
+
+<h4>Git e GitHub para Desenvolvedores</h4>
+<p>Certificação DevHub (2021)</p>
+
+PROJETOS
+
+<p>
+  Aqui você encontra alguns dos meus <strong>projetos</strong> desenvolvidos com foco em <strong>front-end</strong>, onde aplico boas práticas, criatividade e <strong>tecnologias modernas</strong> para construir interfaces funcionais e atraentes.
+</p>
+
+<p>Uma landing page responsiva feita com HTML, CSS e um pouco de JavaScript.</p>
+
+<i class="fa-brands fa-github"></i>
+
+<i class="fa-solid fa-up-right-from-square"></i>
+
+CONTATO
+
+<p>
+  Fique à vontade para entrar em <strong>contato</strong> comigo para <strong>projetos, parcerias</strong> ou qualquer dúvida relacionada a <strong>desenvolvimento web</strong>. Estou sempre aberto a novas oportunidades e colaborações.
+</p>
