@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especificidade de Seletores</title>
+  <style>
+    h1 {
+      color: blue;
+    }
+
+    .titulo {
+      color: red;
+    }
+
+    #titulo {
+      color: orange;
+    }
+
+    /* !important */
+  </style>
+</head>
+
+<!-- 
+A especificidade é uma medida de quão específico um seletor é. Quanto mais específico o seletor, maior a sua prioridade na aplicação de estilos. A ordem de especificidade é a seguinte:
+1. Seletor de ID (ex: #meu-id)
+2. Seletor de classe (ex: .minha-classe)
+3. Seletor de elemento (ex: p, h1, div)
+4. Seletor universal (ex: *)
+
+* Observações:
+- Se dois seletores tiverem a mesma especificidade, o último declarado no CSS terá prioridade.
+- O uso de !important pode sobrescrever a especificidade, mas deve ser evitado, pois pode tornar o código difícil de manter.
+-->
+
+<body>
+  <h1 id="titulo" class="titulo">Qual a minha cor ?</h1>
+</body>
+</html>

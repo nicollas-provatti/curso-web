@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordem de Especificidade</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    p {
+      color: green;
+    }
+    </style>
+</head>
+
+<!-- 
+  A especificidade é uma regra que define qual estilo deve ser aplicado a um elemento quando há conflitos entre diferentes seletores CSS. A ordem de prioridade é a seguinte:
+  1. Inline CSS (estilos aplicados diretamente no elemento)
+  2. CSS Interno (estilos definidos dentro da tag <style>)
+  3. CSS Externo (estilos definidos em arquivos .css)
+
+  * Observação: Caso o CSS Interno seja colocado antes do CSS Externo, o CSS Externo terá prioridade sobre o CSS Interno, pois ele é lido depois. No entanto, se o CSS Interno for colocado depois do CSS Externo, ele terá prioridade sobre o CSS Externo. Mas o CSS Inline sempre terá a maior prioridade, independentemente da ordem dos outros estilos. 
+-->
+
+<body>
+  <h1>Tipos de CSS - Comparação</h1>
+  <p style="color: red;">Qual é a minha cor ?</p>
+</body>
+</html>
