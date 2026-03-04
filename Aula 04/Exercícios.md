@@ -439,7 +439,7 @@ main {
 
 ---
 
-### 🔹 Exercício 3 – Centralizando um Card de Produto
+### 🔹 Exercício 4 – Centralizando um Card de Produto
 **Descrição:** Neste exercício, você vai praticar a centralização de um card de produto na tela. O objetivo é posicionar esse card exatamente no centro da tela, tanto na horizontal quanto na vertical, independentemente do tamanho da viewport.
 
 **Código Base (HTML):**
