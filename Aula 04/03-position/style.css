@@ -47,3 +47,16 @@ body {
   /* position: static */
 }
 
+/* 
+Código para centralizar um elemento:
+
+#container {
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+*/
