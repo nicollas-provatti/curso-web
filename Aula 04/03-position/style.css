@@ -1,0 +1,49 @@
+/* 
+A propriedade CSS `position` é usada para especificar o tipo de posicionamento de um elemento na página. Ela pode assumir os seguintes valores:
+
+- static: O elemento é posicionado de acordo com o fluxo normal do documento.
+- relative: O elemento é posicionado em relação à sua posição original.
+- absolute: O elemento é posicionado em relação ao seu ancestral mais próximo que tenha uma posição diferente de static.
+- fixed: O elemento é posicionado em relação à janela de visualização e não se move com a rolagem da página.
+- sticky: O elemento é tratado como relative até que seu bloco de contêiner atinja um limite de rolagem, momento em que é tratado como fixed.
+
+Cada valor de `position` tem suas próprias características e usos específicos, permitindo que os desenvolvedores controlem a disposição dos elementos na página de maneira flexível. 
+
+Ao usar qualquer valor de `position` diferente de `static`, é possível usar as propriedades `top`, `right`, `bottom` e `left` para ajustar a posição do elemento em relação ao seu contêiner ou à janela de visualização, dependendo do valor de `position` escolhido.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* height: 200vh; */
+}
+
+#container {
+  background-color: #ccc;
+  border: 1px solid black;
+  width: 80%;
+  min-height: 300px;
+  margin: 100px auto 0; 
+  padding: 20px;
+  border-radius: 10px; 
+  /* position: relative; */
+}
+
+.content {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #3639f4;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 95px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  /* position: static */
+}
+
