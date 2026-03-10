@@ -1,0 +1,21 @@
+#container {
+  background-color: #ccc;
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.content {
+  background-color: #111;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  color:white;
+
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+  /* visibility: hidden; */
+}
