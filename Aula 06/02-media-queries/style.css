@@ -1,0 +1,50 @@
+/* MAX-WIDTH */
+/* Se a largura da tela for maior que 769px  */
+body {
+  background-color: lightcoral;
+}
+/* Se a largura da tela estiver entre 481-768px  */
+body {
+  background-color: lightgreen;
+}
+
+/* Se a largura da tela estiver entre 0-480px  */
+body {
+  background-color: lightblue;
+}
+
+/* max-width: para largura de tela até (teto) */
+/* mi-width: para largura de tela maior que (piso) */
+
+/* Tablet */
+@media (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* MIN-WIDTH */
+body {
+  background-color: lightblue;
+}
+
+/* Tablet */
+@media (min-width: 481px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  body {
+    background-color: lightcoral;
+  }
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #ccc;
+}
+
+header {
+  background: #333; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+button:hover {
+  background-color: #555;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #333;
+}
+
+a:visited {
+  color: #666;
+}
+
+main section:first-child {
+  background-color: #dcdcdc;
+}
+
+main section:last-child {
+  background-color: #dcdcdc;
+}
+
+main section:nth-child(2) {
+  background-color: #f4f4f4;
+}
+
+main section:nth-child(odd) {
+  background-color: #dcdcdc;
+}
+
+main section:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+main section:first-child p::after {
+  content: " 🚀";
+}
+
+main section:last-child p::before {
+  content: "🚀 ";
+}
