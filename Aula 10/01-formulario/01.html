@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 600px;
+    }
+
+    .form-container h1 {
+      text-align: center;
+      margin-bottom: 24px;
+      color: #333;
+    }
+
+    fieldset {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 24px;
+      border-radius: 8px;
+    }
+
+    legend {
+      font-weight: bold;
+      padding: 0 8px;
+      color: #2575fc;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: #444;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    select,
+    textarea {
+      resize: none;
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: border 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus,
+    select:focus,
+    textarea:focus {
+      border-color: #2575fc;
+      outline: none;
+    }
+
+    .modalidade,
+    .area-interesse {
+      display: flex;
+      gap: 5px;
+      margin: 6px;
+    }
+
+    .modalidade label,
+    .area-interesse label {
+      margin: 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background-color: #2575fc;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #1a5ed8;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Formulário de Inscrição</h1>
+    <form method="post">
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+  
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome">
+  
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" min="0">
+      </fieldset>
+      
+      <fieldset>
+        <legend>Informações da Conta</legend>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+      </fieldset>
+  
+      <fieldset>
+        <legend>Informações do Curso</legend>
+        <select name="curso" id="curso">
+          <optgroup label="Front-end">
+            <option value="html-css">HTML e CSS</option>
+            <option value="js">JavaScript</option>
+          </optgroup>
+          <optgroup label="Back-end">
+            <option value="node">NodeJS</option>
+            <option value="mongo-db">MongoDB</option>
+          </optgroup>
+        </select>
+    
+        <label for="mensagem">Porque você quer fazer esse curso ?</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+    
+        <label for="presencial">Escolha uma modalidade:</label>
+
+        <div class="modalidade">
+          <input type="radio" name="modalidade" id="presencial" value="presencial">
+          <label for="presencial">Presencial</label>
+        </div>
+
+        <div class="modalidade">
+          <input type="radio" name="modalidade" id="online" value="online">
+          <label for="online">Online</label>
+        </div>
+        
+        <div class="modalidade">
+          <input type="radio" name="modalidade" id="hibrido" value="hibrido">
+          <label for="hibrido">Híbrido</label>
+        </div>
+    
+        <label for="web">Áreas de interesse:</label>
+
+        <div class="area-interesse">
+          <input type="checkbox" name="interesses" id="web" value="web">
+          <label for="web">Web</label>
+        </div>
+
+        <div class="area-interesse">
+          <input type="checkbox" name="interesses" id="dados" value="dados">
+          <label for="dados">Dados</label>
+        </div>
+
+        <div class="area-interesse">
+          <input type="checkbox" name="interesses" id="ia" value="ia">
+          <label for="ia">IA</label>
+        </div>
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

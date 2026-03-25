@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 32px;
+      border-radius: 12px;
+      max-width: 450px;
+    }
+
+    .form-container h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 24px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      transition: border 0.3s;
+    }
+
+    input:focus {
+      outline: none;
+      border: 1px solid #2575fc;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background-color: #2575fc;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #1a5ed8;
+    }
+
+    .modalidade,
+    .area-interesse {
+      display: flex;
+      gap: 5px;
+      margin: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Formulário de Cadastro</h1>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome">
+  
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+  
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha">
+  
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
